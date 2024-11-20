@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-logo"></div>
+        <nav>
+            <a class="navbar" href="#">Home</a>
+            <a class="navbar" href="#">Our Package</a>
+            <a class="navbar" href="#">Call Us</a>
+        </nav>
+
+    </header>
+    <main style="width: fit-content;">
+        <header class="main-article-header">
+            <h1>Your Trusted Travel Agent</h1>
+            <h3>Your Happiness is our happiness</h3>
+        </header>
+
+        <article class="main-article">
+            <section class="container-banner">
+                <div class="banner-autoslide image1 display:none"></div>
+                <div class="banner-autoslide image2 display:block"></div>
+                <div class="banner-autoslide image3"></div>
+                <p>"Liburan jadi menyenangkan bersama Travel Agentku."</p>
+                <p>Florence Hughes</p>
+                <br>
+                <div class="benefits">
+                    <b> Use this space to provide users with more information about your offer. 
+                        Consider it a follow-up to your headline and explain the benefits of your service or product</b>
+                    <li>Your first feature, written in the form of a benefit statement</li>
+                    <li>Your second feature, written in the form of a benefit statement</li>
+                    <li>Your third feature, written in the form of a benefit statement</li>
+                  </div>
+                
+            </section>
+            <section class="contact-us">
+                <h2>Form Contact Us</h2>
+                <p>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>         
+                <form method = "get">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email">
+                    <label for="interest">Your Interest:</label>
+                    <select name="interest" id="interest"> 
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </form>
+                <button type="submit" onclick="validateData()">Send</button>
+            </section>
+        </article>
+
+        <!-- Konten Our Package-->
+        <article>
+            <header class="our-package-header">
+                <h1>Our Package</h1>
+            </header>
+            <section class="our-package-content">
+                <div>
+                    <h3>Bali</h2>
+                    <p>Neque egestas congue quisque egestas diam in arcu cursus. Ut eu sem integer vitae justo eget magna fermentum iaculis. Laoreet non curabitur gravida arcu ac tortor. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.</p>
+                  </div>
+                  <div>
+                    <h3>Japan</h2>
+                    <p>Nisl rhoncus mattis rhoncus urna neque. Amet venenatis urna cursus eget nunc. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Malesuada nunc vel risus commodo. Egestas dui id ornare arcu odio ut sem.</p>
+                  </div>
+                  <div>
+                    <h3>Singapore</h2>
+                    <p>Orci ac auctor augue mauris augue neque. Facilisi morbi tempus iaculis urna id volutpat. Facilisi morbi tempus iaculis urna id volutpat. </p>
+                  </div>
+            </section>
+            <br>
+            <section class="our-package-content">
+                <div>
+                    <h3>Bandung</h2>
+                    <p>Neque egestas congue quisque egestas diam in arcu cursus. Ut eu sem integer vitae justo eget magna fermentum iaculis. Laoreet non curabitur gravida arcu ac tortor. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc.</p>
+                  </div>
+                  <div>
+                    <h3>Surabaya</h2>
+                    <p>Nisl rhoncus mattis rhoncus urna neque. Amet venenatis urna cursus eget nunc. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Malesuada nunc vel risus commodo. Egestas dui id ornare arcu odio ut sem.</p>
+                  </div>
+                  <div>
+                    <h3>Korea</h2>
+                    <p>Orci ac auctor augue mauris augue neque. Facilisi morbi tempus iaculis urna id volutpat. Facilisi morbi tempus iaculis urna id volutpat. </p>
+                  </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <h2>Use our Travel Agent Now!</h2>
+        <p>Made by Wirya Satya Gunawan</p>
+        <button>Call to Action</button>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
